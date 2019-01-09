@@ -1,6 +1,6 @@
 export function addQuote() {
   return (dispatch) => {
-    dispatch( {type: 'UPDATING_QUOTE'});
+    dispatch( {type: 'WAITING_QUOTE'});
     return fetch('http://localhost:3001/api/v1/add', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
