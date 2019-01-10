@@ -1,17 +1,17 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
+import Sports from '../images/sports.jpg';
 
 const Example = (props) => {
   return (
     <div className="card-item">
       <Card className="card">
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src={Sports} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Sports</CardTitle>
+          <CardText>Get Your Sports Qutoes Here!</CardText>
+          <Button href="/categories/3">Sports Quotes</Button>
         </CardBody>
       </Card>
     </div>
