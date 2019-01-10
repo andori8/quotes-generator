@@ -46,16 +46,16 @@ export default class Example extends React.Component {
                     Motivation
                   </DropdownItem>
                   <DropdownItem href="/categories/2">
-                    Funny
+                    Humor
                   </DropdownItem>
-                  <DropdownItem href="/categories/2">
+                  <DropdownItem href="/categories/3">
                     Sports
                   </DropdownItem>
-                  <DropdownItem href="/categories/2">
+                  <DropdownItem href="/categories/4">
                     Love
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
+                  <DropdownItem href="/random">
                     Random
                   </DropdownItem>
                 </DropdownMenu>

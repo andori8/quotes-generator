@@ -4,8 +4,8 @@ import { Card, CardImg, CardText, CardBody,
 
 const Example = (props) => {
   return (
-    <div className="card">
-      <Card className="card-item">
+    <div className="card-item">
+      <Card className="card">
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>

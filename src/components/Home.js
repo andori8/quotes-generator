@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import MotivationCard from './MotivationCard';
-import FunnyCard from './FunnyCard';
+import HumorCard from './HumorCard';
 import SportsCard from './SportsCard';
 import LoveCard from './LoveCard';
 
@@ -11,8 +11,8 @@ class Home extends Component {
     return (
       <Container fluid>
         <Row>
-          <Col col-6><MotivationCard /></Col>
-          <Col col-6><FunnyCard /></Col>
+          <Col><MotivationCard /></Col>
+          <Col><HumorCard /></Col>
         </Row>
         <Row>
           <Col><SportsCard /></Col>
