@@ -10,11 +10,15 @@ class Random extends Component {
   }
 
   render() {
+    if (Object.keys(this.props.quote).length !== 0) {
     return (
       <div>
         <ShowRandomQuote quote={this.props.quote} />
       </div>
     )
+    } else {
+      return <div>loading</div>
+    }
   }
 }
 
