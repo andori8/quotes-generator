@@ -7,9 +7,8 @@ class ShowCategoryQuotes extends Component {
 
   handleClick = () => {
     this.setState({
-      idx: this.state.idx + Math.floor(Math.random() * (this.props.quotes.length - this.state.idx))
+      idx: Math.floor(Math.random() * this.props.quotes.length)
     })
-    console.log(this.state.idx)
   }
 
   render() {
