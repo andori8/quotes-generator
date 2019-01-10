@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import AddQuote from './AddQuote';
-import { connect } from 'react-redux';
+import { Container, Row, Col } from 'reactstrap';
 
 class Home extends Component {
 
   render() {
     return (
-      <div>
-        
-      </div>
+      <div></div>
     )
   }
 }
