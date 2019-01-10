@@ -4,7 +4,7 @@ function rootReducer(state = [], action) {
       return state;
     case 'ADD_QUOTE':
       return [...state, action.quote]
-    case 'FETCH_QUOTES':
+    case 'FETCH_RANDOM_QUOTE':
       return action.quote
     case 'FETCH_CATEGORY_QUOTES':
       return action.quote

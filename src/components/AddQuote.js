@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { RadioGroup, RadioButton } from 'react-radio-buttons';
+import { connect } from 'react-redux';
+import { addQuote } from '../actions/addQuote';
 
 class AddQuote extends Component {
   state = {
@@ -46,4 +48,4 @@ class AddQuote extends Component {
 
 }
 
-export default AddQuote;
+export default connect(null, {addQuote})(AddQuote);
