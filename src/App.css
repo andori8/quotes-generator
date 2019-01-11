@@ -3,6 +3,7 @@
   margin: 25px;
   border: 0px;
   font-size: 2rem;
+  height: 30em;
 }
 
 body {
@@ -15,5 +16,23 @@ body {
 
 .navbar {
   width: 100%;
+  font-size: 2rem;
+}
+
+.dropdown-item {
+  font-size: 2rem;
+}
+
+.category-quote {
+  font-size: 2rem;
+}
+
+.btn.btn-secondary {
+  font-weight: 1000;
+  font-size: 2rem;
+  background-color: green;
+}
+
+.navbar-brand#title {
   font-size: 2rem;
 }

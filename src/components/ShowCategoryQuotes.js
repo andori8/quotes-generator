@@ -15,7 +15,7 @@ class ShowCategoryQuotes extends Component {
     const {quotes} = this.props
     if (quotes.length !== 0) {
     return (
-      <div>
+      <div className="category-quote">
         {quotes[this.state.idx].blurb}
         <button onClick={this.handleClick}>Next</button>
       </div>
