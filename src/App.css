@@ -34,5 +34,30 @@ body {
 }
 
 .navbar-brand#title {
-  font-size: 2rem;
+  font-weight:bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #F7F7F7;
+  width: 8em;
+  height: 5em;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 1em;
+  line-height: 16px;
+  cursor: pointer;
+  -webkit-transform:rotate(11deg);
+}
+
+#add-quote {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

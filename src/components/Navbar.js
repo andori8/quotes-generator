@@ -29,13 +29,13 @@ export default class Example extends React.Component {
   render() {
     return (
       <div className="navbar">
-        <Navbar color="info" light expand="md">
-            <NavbarBrand id="title" href="/">Quote Generator</NavbarBrand>
+        <Navbar light expand="md">
+            <NavbarBrand id="title" href="/"><br />Quote <br /><br /> Generator</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/create">Add a Quote</NavLink>
+                <NavLink id="add-quote" href="/create">Add a Quote</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
