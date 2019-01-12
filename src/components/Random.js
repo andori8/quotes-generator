@@ -13,7 +13,7 @@ class Random extends Component {
     if (Object.keys(this.props.quote).length !== 0) {
     return (
       <div>
-        <ShowRandomQuote quote={this.props.quote} />
+        <ShowRandomQuote fetchQuote={this.props.fetchRandomQuote} quote={this.props.quote} />
       </div>
     )
     } else {

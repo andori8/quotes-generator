@@ -32,14 +32,14 @@ class AddQuote extends Component {
     return (
       <div className="add-quote">
         <form onSubmit={this.handleSubmit}>
-          <input id="text" type="text" onChange={this.handleChange} value={this.state.text} placeholder="Quote" />
-          <input id="author" type="text" onChange={this.handleChange} value={this.state.author} placeholder="Author" />
+          <div className="quote"><input id="text" type="text" onChange={this.handleChange} value={this.state.text} placeholder="Quote" /></div><br />
+          <div className="author"><input id="author" type="text" onChange={this.handleChange} value={this.state.author} placeholder="Author" /></div><br />
           <RadioGroup id ="category_id" onChange={this.handleCategory} horizontal>
-            <RadioButton value="1">Motivation</RadioButton>
-            <RadioButton value="2">Funny</RadioButton>
-            <RadioButton value="3">Sports</RadioButton>
-            <RadioButton value="4">Love</RadioButton>
-          </RadioGroup>
+            <RadioButton rootColor="black" value="1">Motivation</RadioButton>
+            <RadioButton rootColor="black" value="2">Funny</RadioButton>
+            <RadioButton rootColor="black" value="3">Sports</RadioButton>
+            <RadioButton rootColor="black" value="4">Love</RadioButton>
+          </RadioGroup><br /><br />
           <input type="submit" className="submit-button" value="Submit" />
         </form>
       </div>

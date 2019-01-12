@@ -25,6 +25,7 @@ body {
 
 .category-quote {
   font-size: 2rem;
+  text-align: center;
 }
 
 .btn.btn-secondary {
@@ -60,4 +61,42 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.add-quote {
+  text-align: center;
+  font-size: 2em;
+}
+
+#text {
+  width: 50rem;
+  text-align: center;
+}
+
+#author {
+  width: 20rem;
+  text-align: center;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 2em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.submit-button:hover {background-color: #3e8e41}
+
+.submit-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

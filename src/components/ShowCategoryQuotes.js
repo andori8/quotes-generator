@@ -15,9 +15,12 @@ class ShowCategoryQuotes extends Component {
     const {quotes} = this.props
     if (quotes.length !== 0) {
     return (
-      <div className="category-quote">
-        {quotes[this.state.idx].blurb}
-        <button onClick={this.handleClick}>Next</button>
+      <div className="container">
+        <div className="category-quote">
+          <h1>"{quotes[this.state.idx].blurb}"</h1><br />
+          <h1>-{quotes[this.state.idx].contributor}</h1><br />
+          <button onClick={this.handleClick}>Randomize</button>
+        </div>
       </div>
     )} else {
       return <div>loading</div>
