@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ShowCategoryQuotes from './ShowCategoryQuotes';
+import ShowCategoryQuotes from '../components/ShowCategoryQuotes';
 import { connect } from 'react-redux';
 import { fetchCategoryQuotes } from '../actions/fetchCategoryQuotes';
 

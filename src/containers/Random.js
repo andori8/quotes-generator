@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ShowRandomQuote from './ShowRandomQuote';
+import ShowRandomQuote from '../components/ShowRandomQuote';
 import { connect } from 'react-redux';
 import { fetchRandomQuote } from '../actions/fetchRandomQuote';
 

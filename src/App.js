@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Home from './components/Home';
-import AddQuote from './components/AddQuote';
-import Category from './components/Category';
-import Random from './components/Random';
+import AddQuote from './containers/AddQuote';
+import Category from './containers/Category';
+import Random from './containers/Random';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
