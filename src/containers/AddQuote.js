@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { RadioGroup, RadioButton } from 'react-radio-buttons';
 import { connect } from 'react-redux';
 import { addQuote } from '../actions/addQuote';
+import { withRouter } from 'react-router-dom';
 
 class AddQuote extends Component {
   state = {
@@ -26,6 +27,7 @@ class AddQuote extends Component {
     e.preventDefault()
     this.props.addQuote(this.state)
     this.setState({ text: '', author: '', category_id: ''})
+    this.props.history.push('/thank-you');
   }
 
   render() {

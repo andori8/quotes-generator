@@ -17,7 +17,8 @@ class ShowRandomQuote extends Component {
         <button onClick={this.handleClick}>Randomize</button>
       </div>
     </div>
-  )
+  )} else {
+    return <div>loading</div>
   }
 }
 }
