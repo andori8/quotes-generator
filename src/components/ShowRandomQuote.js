@@ -7,13 +7,19 @@ class ShowRandomQuote extends Component {
   }
 
   render() {
+    const { quote } = this.props
+    if (Object.keys(quote) !== 0) {
   return (
-    <div>
-      <h1>{this.props.quote.blurb}</h1>
-      <button onClick={this.handleClick}>Randomize</button>
+    <div className="container">
+      <div className="quote-show">
+        <h1>{quote.blurb}</h1><br />
+        <h1>-{quote.contributor}</h1><br />
+        <button onClick={this.handleClick}>Randomize</button>
+      </div>
     </div>
   )
   }
+}
 }
 
 export default ShowRandomQuote;

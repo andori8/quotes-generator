@@ -16,7 +16,7 @@ class ShowCategoryQuotes extends Component {
     if (quotes.length !== 0) {
     return (
       <div className="container">
-        <div className="category-quote">
+        <div className="quote-show">
           <h1>"{quotes[this.state.idx].blurb}"</h1><br />
           <h1>-{quotes[this.state.idx].contributor}</h1><br />
           <button onClick={this.handleClick}>Randomize</button>
