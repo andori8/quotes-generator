@@ -1,7 +1,7 @@
 export function addQuote(quote) {
   return (dispatch) => {
     dispatch({type: 'WAITING_QUOTE'});
-    return fetch('http://localhost:3001/api/v1/add', {
+    return fetch('https://quotes-generator-app.herokuapp.com/api/v1/add', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({quote: {blurb: quote.text, contributor: quote.author, category_id: quote.category_id}})
