@@ -17,4 +17,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/andori
 
 ## License
 
-The project is available as open source under the terms of the [MIT License](https://github.com/hyoyou/recipe-rails-app/blob/master/LICENSE).
+The project is available as open source under the terms of the [MIT License](https://github.com/andori8/quotes-generator/blob/master/LICENSE).
